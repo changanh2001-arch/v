@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOEIC Studio — Luyện thi TOEIC hiệu quả</title>
+  <meta name="description" content="Luyện phát âm, từ vựng, ngữ pháp và bài tập TOEIC trong một trang web duy nhất." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- ===== Styles ===== -->
+  <link rel="stylesheet" href="src/styles/tokens.css" />
+  <link rel="stylesheet" href="src/styles/layout.css" />
+  <link rel="stylesheet" href="src/styles/home.css" />
+  <link rel="stylesheet" href="src/styles/pronunciation.css" />
+  <link rel="stylesheet" href="src/styles/vocabulary.css" />
+  <link rel="stylesheet" href="src/styles/grammar.css" />
+  <link rel="stylesheet" href="src/styles/practice.css" />
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- ===== Dữ liệu ===== -->
+  <script src="src/data/vocabulary.js"></script>
+  <script src="src/data/grammar.js"></script>
+  <script src="src/data/practice.js"></script>
+  <script src="src/data/pronunciation.js"></script>
+
+  <!-- ===== Tiện ích ===== -->
+  <script src="src/utils/speechScorer.js"></script>
+
+  <!-- ===== Components (view) ===== -->
+  <script src="src/components/homeView.js"></script>
+  <script src="src/components/pronunciationView.js"></script>
+  <script src="src/components/vocabularyView.js"></script>
+  <script src="src/components/grammarView.js"></script>
+  <script src="src/components/practiceView.js"></script>
+
+  <!-- ===== App controller (khởi tạo cuối cùng) ===== -->
+  <script src="src/app.js"></script>
+</body>
+</html>
